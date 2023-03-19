@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PortFolio</title>
+    <link rel="icon" href="images/suitcase.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e05a8c1065.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+    <div class="container">
+    <nav>
+        <img src="images/Swapnil.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    </nav>
+
+    <div class="header-text">
+        <p>Frontend Developer</p>
+        <h1>Hi, I'm <span> Swapnil</span> <br> Yashod From Mumbai</h1>
+    </div>
+    </div>
+    </div>
+
+<!--------------------About---------------------------------------------------->
+<div id="about">
+    <div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="images/swap p2.png" alt="">
+        </div>
+
+        <div class="about-col-2">
+            <h2 class="sub-title">About Me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Incidunt enim fuga rerum! Molestias similique quis libero voluptate quae repudiandae eum
+                consequuntur
+                ipsam perferendis sequi, maxime provident, cupiditate sint, atque dolor.</p>
+
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+            <p class="tab-links" onclick="opentab('skill')">Skill</p>
+            <p class="tab-links" onclick="opentab('project')">Project</p>
+        </div>
+
+    <div class="tab-contents active-tab" id="education">
+        <ul>
+            <li><span>B.E(2018-21)</span><br>Electronics And Telecommunication Eng. <br>Grade A</li>
+            <li><span>Diploma(2016-18)</span><br>Electronics And Telecommunication Eng.<br>Grade A</li>
+            <li><span>HSC(2015-16)</span><br>Science<br>Grade C</li>
+            <li><span>SSC(2013-14)</span><br>Grade A+</li>
+        </ul>
+    </div>
+
+    <div class="tab-contents" id="skill">
+        <ul>
+            <li>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width:70%;"></div>
+                    <span class="skill-name" >HTML/CSS</span>
+                </div>
+                <br>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width:50%;"></div>
+                    <span class="skill-name" >JavaScript</span>
+                </div>
+            </li>
+            
+        </ul>
+
+    </div>
+    <div class="tab-contents" id="project">
+        <ul>
+            <li><span>Dam Operation </span><br>Sensors are mounted at different levels in order to check
+            water level and provide signals accordingly to Dam Door <br>
+            also can be implemented on water tank to avoid wastage of water.</li>
+            <li><span>Health Hub</span><br>Monitor Body Temperature,Heart Rate,Pulse Rate parameter of
+                the patient <br>
+                using IOT send and store all parameter of patient on cloud over internet connectivity.
+                <br>
+                <span> Paper Link https://ijsrd.com/Article.php?manuscript=IJSRDV9I20315 </span>
+            </li>
+        </ul>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+                                        <!--------------------Services-------------->
+<div id="services">
+    <h2 class="sub-title1">My Services</h2>
+<div class="grid-container">
+    <div class="grid-item">
+        <i class="fa-sharp fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <a href="#">Lern more</a>
+    </div>
+
+    <div class="grid-item">
+        <i class="fa-sharp fa-solid fa-code"></i>
+            <h2>Mobile App Design</h2>
+            <p>Nullam porta libero ut nisl feugiat, in sagittis nunc ultrices.</p>
+            <a href="#">Lern more</a>
+    </div>
+</div>
+</div>
+
+    <!-- --------------------Portfolio ----------------------------->
+
+<div id="portfolio">
+<div class="container">
+    <h2 class="sub-title">My Work</h12>
+    
+<div class="work-list">
+    <div class="work">
+        <img src="images/country ph.png" alt="">
+        <div class="layer">
+        <h3>Country Details App</h3>
+
+        <p> The app give you details of country</p>
+            <a href="https://swapnil-githu.github.io/country-Details/"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+    </div>
+</div>
+                
+<div class="work">
+    <img src="images/ran user.png" alt="">
+        <div class="layer">
+            <h3>Random User App</h3>
+
+            <p> The app gives you Random User Data by Fetching API</p>
+            <a href="https://swapnil-githu.github.io/Random-User/"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+    </div>
+</div>
+</div>
+    <a href="#" class="btn">see more</a>
+</div>
+
+    <!-- ------------------------contact ----------------------------->
+
+<div id="contact">
+<div class="container">
+<div class="row">
+<div class="contact-left">
+    <h4 class="sub-title">Contact Me</h4>
+    <p><i class="fa-light fa-envelope"></i> swapnilyashod1997@gmail.com</p>
+    <p><i class="fa-light fa-phone-volume"></i>+91 7715865195</p>
+
+<div class="social-icons">
+    <a href="https://github.com/swapnil-githu"><i class="fa-brands fa-github"></i></a>
+    <a href=""><i class="fa-brands fa-square-instagram"></i></i></a>
+    <a href="https://www.linkedin.com/in/swapnil-yashod-990026252/"><i class="fa-brands fa-linkedin"></i></a>
+</div>
+     <p id="currentTime"></p>
+
+    <a href="images/SWAPNILY Resume.pdf" download class="btn btn1">Download CV</a>
+</div>
+
+<div class="contact-right">
+    <form name="submit-to-google-sheet" >
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="Email" placeholder="Your Email" required>
+        <textarea name="Message"rows="5" placeholder="Your Message"></textarea>
+        <button type="submit" class="btn btn1">Submit</button>
+    </form>
+    <span id="msg"></span>
+</div>
+</div>
+</div>
+
+<div class="copyright">
+    <p>Copyright &copy Swapnil. </p>
+</div>
+</div>
+
+    <!-- <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxhlKxkZwOVfYSYUJ9V84BxGiXLMwkIlhsgrhwSEOhk7U0S2Px41z0EtueBhDoeE6u5wg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script> -->
+      <script src="index.js"></script>
+</body>
+
+</html>
