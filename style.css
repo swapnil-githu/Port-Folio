@@ -96,12 +96,15 @@ nav ul li a:hover::after {
 
 .about-col-1 {
     flex-basis: 35%;
+    perspective: 700px;
+
 }
 
 .about-col-1 img {
     width: 100%;
     border-radius: 15px;
     margin-top: 0%;
+    box-shadow: 10px 10px 15px #ccc;
 }
 
 .about-col-2 {
@@ -161,9 +164,9 @@ nav ul li a:hover::after {
     display: block;
 }
 .tab-contents {
-    width: 50%;
+    width:50%;
     }
-    .skill-bar {
+.skill-bar {
     background-color: #ddd;
     height: 20px;
     border-radius: 10px;
@@ -372,10 +375,4 @@ form .btn1{
     margin-top: -10px;
     display: block;
 }
-.about-col-1{
-    perspective: 700px;
-}
-.about-col-1 img{
-    transform: rotate(deg);
-    box-shadow: -10px 0px 75px ;
-}
+
